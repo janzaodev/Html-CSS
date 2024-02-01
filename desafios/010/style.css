@@ -1,0 +1,13 @@
+@charset "UTF8"
+*{
+    background-color: #84e1ad;
+}
+
+header{
+    background-image: linear-gradient(to top, #1a5c38, #3cdc84);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: left;
+}
