@@ -12,58 +12,90 @@
     }
     img {
         max-width: 600px;
+        display: block;
+        height: 100%;
+        width:100%;
+        margin: auto;
     }
     div {
+
         border: 2px solid black;
         border-radius: 10px;
         background-color: black;
-        width: 600px;
+        width: 440px;
         height: 600px;
         margin: auto;
-        content:'1F602';
+        position: relative;
+        display: inline-block;
+        
+    }
+    div .frente{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
     }
     div > img{
-        display: block;
-        height: 100%;
-        margin: auto;
-       
-        
+     
+    }
+    div:hover .frente {
+        display: inline;
+
     }
 
 
 </style>
 <body>
    
-    <div class="misterio">
-        <div class="foto">
-         <img src="imagens/2023-12-08 20.04 (1).jpeg" alt="">
-        </div>
+    <div>
+         <img src="imagens/back.png" alt="">
+         <img src="imagens/2023-12-08 20.04 (1).jpeg" class="frente" alt="">
+     
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+         <img src="imagens/2023-12-08 20.04.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-08 20.07.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-08 20.08.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-08 20.10.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-08 20.11.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-08 20.18.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2023-12-09 13.40.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2024-01-01 11.04.jpeg" class="frente" alt="">
         
     </div>
     <div>
+        <img src="imagens/back.png" alt="">
+        <img src="imagens/2024-01-01 11.05.jpeg" class="frente" alt="">
         
     </div>
 
